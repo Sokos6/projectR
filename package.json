@@ -1,0 +1,18 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "React Project",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will Sokolowski",
+  "license": "MIT"
+}
