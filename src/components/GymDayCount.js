@@ -6,13 +6,19 @@ export const GymDayCount = React.createClass({
     return (
       <div className="gym-day-count">
         <div className="total-days">
-          <span>5 days</span>
+          <span>{this.props.total}</span>
+          <span>days</span>
         </div>
         <div className="cardio-days">
-          <span>2 days</span>
+          <span>{this.props.cardio}</span>
+          <span>days</span>
         </div>
         <div className="heavy-days">
-          <span>1 heavy day</span>
+          <span>{this.props.heavy}</span>
+          <span>days</span>
+        </div>
+        <div>
+          <span>{this.props.goal}</span>
         </div>
       </div>
     )
