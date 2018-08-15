@@ -1,12 +1,10 @@
 import React from 'react'
 import { render } from 'react-dom'
-import {hello, goodbye } from './lib'
+import { GymDayCount } from './components/GymDayCount'
 
+window.React = React
 
 render(
-  <div>
-      {hello}
-      {goodbye}
-  </div>,
+  <GymDayCount />,
   document.getElementById('react-container')
 )
