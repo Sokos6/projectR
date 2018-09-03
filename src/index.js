@@ -5,7 +5,7 @@ import { GymDayList } from './components/GymDayList'
 window.React = React
 
 render(
-  <GymDayList = {
+  <GymDayList days={
     [
       {
         gym: "LA Fitness",
@@ -23,7 +23,7 @@ render(
         gym: "Onelife Fitness",
         date: new Date("9/2/2018"),
         cardio: true,
-        heavy: true   
+        heavy: true
       }
     ]
   }/>,
