@@ -16,10 +16,7 @@ export const GymDayList = ({days}) => (
     <tbody>
       {days.map((day, i) =>
         <GymDayRow key={i}
-          gym={day.gym}
-          date={day.date}
-          cardio={day.cardio}
-          heavy={day.heavy}/>
+          {...day}/>
       )}
     </tbody>
 
